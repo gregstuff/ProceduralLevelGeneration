@@ -194,7 +194,7 @@ namespace ProcGenSys.WFC.Learner
         {
             asset.TileIds = tiles.ToArray();
 
-            asset.Adjacency = new WFCModelBundle.AdjacencyPerDir[4];
+            asset.Adjacency = new WFCModelBundle.AdjacencyPerDir[8];
             int N = tiles.Count;
             foreach (var kv in adj)
             {
